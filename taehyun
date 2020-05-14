@@ -1,1 +1,23 @@
-
+<html lang="kr">
+	<head>
+		<meta charset="utf-8">
+		<title>멋사</title>
+	</head>
+	<body>
+		<header>
+			<p>자기소개서-김태현</p>
+		</header>
+		<nav>
+			<p>삼육대학교</p>
+		</nav>
+		<section>
+			<p>경영학과 20학번</p>
+			<article>
+				<p>동아리-멋쟁이 사자처럼</p>
+			</article>
+		</section>
+		<footer>
+			<p>https://www.notion.so/syulion/LIKELION-at-SYU-8th-89109b24af4f47b9af51170bee1bd769</p>
+		</footer>
+	</body>
+</html>
