@@ -1,0 +1,178 @@
+<html>
+<head>
+<title>LIKELION</title>
+<meta name=viewport content="width=device-width, initial-scale=1, user-scalable=0">
+<style type="text/css">
+* { font-style: initial;
+
+}
+body {
+	margin: 0;
+}
+.section {
+	float: left;
+	width: 100%;
+} 
+#header-area {
+	background-color: #4bd1f3;
+}
+#header-area h3 {
+	margin: 12px 0px;
+	text-align: center;
+	color: white;
+}
+#menu-area ul {
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 12px 10px;
+	box-sizing: border-box;
+	background-color: #f9f9f9;
+}
+#menu-area li {
+	float: left;
+	padding: 0px 10px;
+	list-style: none;
+	font-size: 0.95em;
+}
+#contents-area p {
+	float: left;
+	margin: 20px 0px 30px 0px;
+	padding: 0px 16px;
+	box-sizing: border-box;
+
+	overflow: hidden; 
+	text-overflow: ellipsis; 
+	display: -webkit-box;
+	-webkit-line-clamp: 4; 		/* line number */	
+	-webkit-box-orient: vertical; 
+	word-wrap: break-word;
+}
+#footer-area {
+	float: left;
+	width: 100%;
+	margin-top: 30px;
+	line-height: 50px;
+	background-color: #EEE;
+	text-align: center;
+	color: #555;
+	font-size: 0.8em;
+	border-top: 1px solid #eee;
+}
+.feed {
+	float: left;
+	width: 100%;
+	padding-top: 10px;
+	background-color: white;
+	border-top: 1px solid #f4f4f4;
+}
+.image {
+	position: relative;
+	overflow: hidden;
+	background-position: 50%;
+	background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.image:before {
+	content: "";
+	display: block;
+	width: 100%;
+	padding-bottom: 75%;
+}
+.grid-66 {
+	float: left;
+	width: 66.66%;
+	padding: 1px;
+	box-sizing: border-box;	
+}
+.grid-50 {
+	float: left;
+	width: 50%;
+	padding: 1px;
+	box-sizing: border-box;	
+}
+.grid-33 {
+	float: left;
+	width: 33.33%;
+	padding: 1px;
+	box-sizing: border-box;	
+}
+.author {
+	float: left;
+	width: 100%;
+	padding: 10px 16px;
+	box-sizing: border-box;
+	box-sizing: border-box;	
+}
+.author .photo {
+	float: left;
+	padding: 5px;
+	width: 30px; height: 30px;
+	overflow: hidden;
+	background-position: 50%;
+	background-repeat: no-repeat;
+    background-size: cover;
+    /* 아래 태그를 수정해주세요 back ground-image */
+	background-image: url("images/contact.jpg");
+	border: 1px solid #ddd;
+	border-radius: 30px;
+}
+.author .name {
+	float: left;
+	margin-left: 10px;
+	line-height: 42px;
+	font-weight: bold;
+}
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="header-area" class="section">
+	<h3>LIKELION</h3>
+</div>
+<div id="menu-area" class="section">
+	<ul>
+		<li>Messages</li>
+		<li>Friends</li>
+		<li>About</li>
+	</ul>
+</div>
+<div id="contents-area" class="section">
+	<div class="feed">
+		<div class="author">
+			<div class="photo"></div>
+			<div class="name"><김태현</div>
+		</div>
+		<div class="grid-50">
+			<!-- 이곳에 class="image"인 이미지태그를 삽입해주세요 -->
+            <!--예시: <img class="image"src="data:image/jpeg;base64,/9j/
+		</div>
+		<div class="grid-50">
+			<!-- 이곳에 class="image"인 이미지태그를 삽입해주세요 -->
+		</div>
+		<p>
+			<!-- 이곳에 글을 삽입해주세요 -->
+		</p>
+	</div>
+	<div class="feed">
+		<div class="author">
+			<div class="photo"></div>
+			<div class="name"> 김태현></div>
+		</div>
+		<div class="section">
+            <!--예시: <iframe class="image" src="https://www.youtube.com/embed/k8gx-C7GCGU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+			<!-- 이곳에 class="image"인 동영상 태그를 삽입해주세요 --><iframe class image width="560" height="315" src="https://www.youtube.com/embed/Su8P9q5l838" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		<p><a>
+			<!-- 이곳에 글을 삽입해주세요 -->
+			학교 가고 싶다.</a>
+		</p>
+	</div>
+</div>
+<div id="footer-area" class="section">
+    LIKELION 8th Session
+</div>
+</body>
+</html>
