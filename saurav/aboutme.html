@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name=viewport content="width=device-width, initial-scale=1, user-scalable=0">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <title>Introduction </title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            background-color: black;
+            font-family: 'Pangolin', cursive;
+        }
+
+        .container1 {
+            min-width: 100%;
+            margin: 0 auto;
+            height: 97vh;
+            background-image: url(https://clipartstation.com/wp-content/uploads/2017/11/bonhomme-blanc-clipart-3.jpg);
+            background-repeat: no-repeat;
+            background-size: 33%;
+
+            background-position: 50%;
+
+
+        }
+
+        .box {
+            text-align: center;
+            color: white;
+
+
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50% 50%;
+            text-align: center;
+
+        }
+
+        nav ul {
+            float: left;
+            width: 100%;
+            padding-left: 31px;
+
+        }
+
+        nav ul li {
+            float: left;
+            padding: 15px;
+            list-style-type: none;
+            border: solid white;
+            margin: 5px;
+            color: white;
+            margin-bottom: 20px
+        }
+
+        nav ul li:hover {
+            background-color: green;
+            cursor: pointer;
+        }
+
+        .content {
+            height: 100%;
+            width: 100%;
+            border: 1px solid green;
+            display: block;
+            color: white;
+            margin: 60px auto;
+            background-image: url("backgroundpic.webp");
+            z-index: -1;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .home {
+            display: none;
+        }
+
+        .aboutpage {
+            display: none;
+
+        }
+
+        .contact {
+            display: none;
+        }
+
+        a {
+            background-color: black;
+            text-decoration: none;
+            color: white
+        }
+
+        a:hover {
+            background-color: red
+        }
+
+        .about-content {
+            margin: 65px 10px;
+            border: 1px solid white;
+            padding: 20px;
+        }
+
+        .links {
+            margin: 239px 373px;
+        }
+
+        .links ul li {
+
+            float: left;
+            padding: 15px;
+            list-style-type: none;
+            border: solid white;
+            margin: 5px;
+            color: white;
+            background-color: black;
+        }
+
+        ol li {
+            list-style-type: none;
+            color: white
+        }
+
+        .fav {
+            text-align: center;
+           
+
+        }
+
+        h2 {
+            /* margin-top: 79px; */
+            border-top: 1px solid green;
+
+        }
+
+        .fav-items {
+            font-size: 25px;
+
+
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid green;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 15px;
+        }
+
+        th {
+            text-align: left;
+            font-weight: bold;
+            color: red
+        }
+
+        table {
+            border-spacing: 5px;
+        }
+
+        ol li {
+            color: red;
+            border-bottom: 1px solid white;
+            padding: 10px
+        }
+
+        .contact-box {
+            margin-top: 20px;
+            opacity: 0.7;
+        }
+        @media (min-width:300px)  and (max-width:600px) {
+            .container1 {
+           
+            background-size: 100%;
+
+            
+
+
+        }
+
+}
+hr{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+.card-title{
+    color: red
+}
+#item-1{
+    background-image: url(basketball.jpeg),url(basketball2.jpeg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-attachment: fixed;
+    line-height: 400px;
+    background-position: right top, left top;
+}
+
+
+
+#item-2{
+    background-image: url(IMG_1664.jpg);
+    height: 616px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    line-height: 610px;
+}
+
+#item-3{
+    background-image: url(watch.jpg);
+    height: 516px;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+    line-height: 500px;
+}
+#item-4{
+    background-image: url(reading.jpeg);
+    height: 516px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    line-height: 500px;
+}
+#item-5{
+    background-image: url(sleeping.jpg);
+    height: 516px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    line-height: 500px;
+}
+    </style>
+</head>
+
+<body>
+    <div class="container1">
+        <header>
+            <div class="box">
+                <div class="photo">
+                    <img src="myPhoto.jpg" alt="myphoto">
+                </div>
+                Saurav Tanwar
+            </div>
+            <hr>
+        </header>
+
+        <nav>
+            <ul>
+                <li id="home" class="nav-item">Home</li>
+                <li id="about" class="nav-item">About me</li>
+                <li id="contact" class="nav-item">Contact me</li>
+            </ul>
+        </nav>
+        <div class="content home">
+            <div class="fav">
+                <h2>My Hobbies</h2>
+                <ol>
+                    <li id="item-1" class="fav-items">Play to Basketball</li>
+                    <li id="item-4" class="fav-items">Reading</li>
+                    <li id="item-3"class="fav-items">Watching movies</li>
+                    <li id="item-2"class="fav-items">Programming</li>
+                    <li id="item-5"class="fav-items">Sleeping</li>
+                </ol>
+            
+            
+        </div>
+        </div>
+        <div class="content aboutpage">
+            <div class="about-content">
+                This is saurav Tanwar. i'm from india. i have been here 3 years. i'm stydying computer science in <a
+                    href="https://www.syu.ac.kr" target="_blank">sahmyook university</a>.
+                 </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 all_card"><div class="card w-50">
+                            <div class="card-body">
+                              <h5 class="card-title"><strong>what i most like to do</strong> </h5>
+                              <p class="card-text">i like to play basketball. i'm very interested to learn programming. I like to make youtube videos about
+                                korea and to teach korean language to indians.</p>
+                             
+                            </div>
+                          </div></div>
+                        <div class="col-sm-6 all_card"><div class="card w-50">
+                            <div class="card-body">
+                              <h5 class="card-title"><strong>About Me</strong></h5>
+                              <p class="card-text">i'm 24 years old. i'm from india </p>
+                             
+                            </div>
+                          </div></div>
+                        
+                    </div>
+                </div>
+            <div class="links">
+                <ul>
+                    <a href="https://www.facebook.com/tsaurav19" target="_blank">
+                        <li class="sns">facebook</li>
+                    </a>
+                    <a href="https://github.com/tsaurav18" target="_blank">
+                        <li class="sns">Github</li>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCg8tcxSpURVqnk0xtXhpRUQ?view_as=subscriber"
+                        target="_blank">
+                        <li class="sns">Youtube</li>
+                    </a>
+
+
+                </ul>
+            </div>
+        </div>
+        <div class="content contact">
+            <div class="contact-box">
+                <table style="width:100%">
+                    <tr>
+                        <th>Email</th>
+                        <th>Phone Number</th>
+                        <th>KakaoTalk</th>
+                    </tr>
+                    <tr>
+                        <td>tsaurav1711@likelion.org</td>
+                        <td>010-8589-5305</td>
+                        <td>sauravt1997</td>
+                    </tr>
+
+                </table>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+    <script>
+        var hiddenBox1 = $(".home ");
+        $("#home").on("click", function (event) {
+
+            hiddenBox1.show();
+            hiddenBox2.hide();
+            hiddenBox3.hide();
+
+        });
+    </script>
+    <script>
+        var hiddenBox2 = $(".aboutpage ");
+        $("#about").on("click", function (event) {
+
+            hiddenBox2.show();
+            hiddenBox3.hide();
+            hiddenBox1.hide();
+
+
+
+        });
+    </script>
+    <script>
+        var hiddenBox3 = $(".contact ");
+        $("#contact").on("click", function (event) {
+            hiddenBox3.show();
+            hiddenBox2.hide();
+            hiddenBox1.hide();
+        });
+    </script>
+</body>
+
+</html>
